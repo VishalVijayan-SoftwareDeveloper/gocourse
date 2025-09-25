@@ -48,7 +48,7 @@ func main() {
 		fmt.Println("Enter your guess:")
 		fmt.Scanln(&guess)
 		if guess == target {
-			fmt.Println(" Congratulations!!!  Yoou guessed correct number")
+			fmt.Println(" Congratulations!!!  You guessed correct number")
 			break
 		} else if guess < target {
 			fmt.Println("Too low and try again")
