@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 
@@ -34,4 +37,12 @@ func main() {
 	for k, v := range myMap {
 		fmt.Println(k, v)
 	}
+
+	input := "Hello world hello Sai sai"
+	words := strings.Fields(strings.ToLower(input))
+	count := make(map[string]int)
+	for _, val := range words {
+		count[val]++
+	}
+	fmt.Println(count)
 }

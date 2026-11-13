@@ -21,4 +21,5 @@ func main() {
 	array2 := [4]int{4, 5, 6, 7}
 
 	fmt.Println("if Array1 is equual to array2:", array1 == array2)
+
 }

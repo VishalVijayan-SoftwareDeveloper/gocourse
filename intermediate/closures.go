@@ -1,8 +1,8 @@
-package main
+package intermediate
 
 import "fmt"
 
-func main() {
+func Closure() {
 
 	sequence := adder()
 	fmt.Println(sequence()) //1

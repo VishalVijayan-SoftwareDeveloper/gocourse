@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"fmt"
@@ -34,7 +34,7 @@ func measure(g Geometry) {
 	fmt.Println(g.area())
 	fmt.Println(g.perimeter())
 }
-func main() {
+func Interfaces() {
 
 	rect := rect{10, 5}
 	cir := Circle{10}
@@ -68,4 +68,3 @@ func myPrint(i ...interface{}) {
 		fmt.Println(val)
 	}
 }
-

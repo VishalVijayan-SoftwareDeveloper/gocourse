@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ type Person struct {
 	Age       int
 }
 
-func main() {
+func Struct() {
 	p := Person{"Vishal", "Vijayan", 32}
 	fmt.Println(p)
 	FullName := p.FullName()

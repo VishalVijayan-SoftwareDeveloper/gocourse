@@ -1,11 +1,11 @@
-package main
+package intermediate
 
 import (
 	"fmt"
 	"strings"
 )
 
-func main() {
+func StringFunc() {
 
 	str := "HEllo World"
 

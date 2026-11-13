@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import "fmt"
 
@@ -7,7 +7,7 @@ type Rectangle struct {
 	width  float64
 }
 
-func main() {
+func Methods() {
 	rect := Rectangle{10, 5}
 
 	area := rect.Area()

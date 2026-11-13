@@ -1,4 +1,4 @@
-package main
+package intermediate
 
 import "fmt"
 
@@ -24,7 +24,7 @@ func (s *Stack[T]) delete() (T, bool) {
 	s.elements = s.elements[:len(s.elements)-1]
 	return element, true
 }
-func main() {
+func Generics() {
 	x, y := 1, 2
 	x, y = swap(x, y)
 	fmt.Println(x, y)

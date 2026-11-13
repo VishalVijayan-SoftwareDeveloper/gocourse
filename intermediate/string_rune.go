@@ -1,8 +1,8 @@
-package main
+package intermediate
 
 import "fmt"
 
-func main() {
+func StringRune() {
 
 	message := "Hello World"
 	fmt.Println(message)
